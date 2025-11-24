@@ -12,8 +12,7 @@ fun extractValue(config: String, key: String): String? {
 
 // This function to split Config.
 fun splitConfig(config: String): List<String>{
-    val splittedConfig = config.trim().split(";")
-    return splittedConfig
+     return config.trim().split(";")
 }
 
 // This function to filter and split pairs.
